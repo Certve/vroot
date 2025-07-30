@@ -1,6 +1,6 @@
 #!/bin/sh
 
-options=("Ubuntu" "Debian(Unsupported)" "Kaili_linux" "CentOS")
+options=("Ubuntu" "Debian(Unsupported)" "Kali_linux" "CentOS")
 selected=0
 
 # Function to show header
@@ -79,7 +79,7 @@ while true; do
                     bash Debian.sh
                     ;;
                 2)
-                    bash Kaili_linux.sh
+                    bash Kali_linux.sh
                     ;;
                 3)
                     bash CentOS.sh

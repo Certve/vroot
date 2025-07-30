@@ -2,7 +2,7 @@
 
 ## Overview
 
-This shell script is designed to automate the installation of Mytai2010, a lightweight any operating system environment using Proot.
+This shell script is designed to automate the installation of IvanSsl, a lightweight any operating system environment using Proot.
 
 ## Prerequisites
 
@@ -16,8 +16,8 @@ This shell script is designed to automate the installation of Mytai2010, a light
 step 1. Clone the repository:
 
     
-    git clone https://github.com/Mytai20100/freeroot.git
-    cd freeroot
+    git clone https://github.com/ivansslo/accroot.git
+    cd accroot
     
     
 step 2. Run the installer script:
@@ -41,4 +41,4 @@ or
 This Proot Installer script is released under the [MIT License](LICENSE).
 
 ## Launch your vps with proot
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mytai20100/freeroot.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ivansslo/accroot.git/HEAD)

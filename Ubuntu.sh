@@ -1,5 +1,6 @@
 #!/bin/sh
-
+HOME=$(/home/master/root)
+ROOTFS_DIR=$(pwd)
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
 max_retries=50

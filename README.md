@@ -16,14 +16,13 @@ This shell script is designed to automate the installation of IvanSsl, a lightwe
 step 1. Clone the repository:
 
     
-    git clone https://github.com/ivansslo/accroot.git
-    cd accroot
+    git clone https://github.com/ivansslo/accroot
     
     
 step 2. Run the installer script:
 
   ```sh
-    chmod +x Ubuntu.sh && bash root.sh # Change Ubuntu.sh to fast running
+    bash root.sh # Change Ubuntu.sh to fast running
   ```
 Execute On Acrh:
     

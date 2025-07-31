@@ -93,12 +93,12 @@ IP_ADDRESS=$(hostname -I | awk '{print $1}')
 
 
 display_gg() {
-  echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}____________________________________________${RESET_COLOR}"
   echo -e "           ${CYAN}-----> Great Linux Here!! ! <----${RESET_COLOR}"
 }
 
 display_version() {
-  echo -e "${WHITE}_______________________________________________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}____________________________________________${RESET_COLOR}"
   echo -e "${CYAN}OS:${RESET} $OS_VERSION"
   echo -e "${CYAN}CPU:${RESET} $CPU_NAME [$CPU_ARCH]"
   echo -e "${CYAN}Used CPU:${RESET} ${CPU_USAGE}%"

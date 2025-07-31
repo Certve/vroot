@@ -1,0 +1,12 @@
+oh-my-zsh/
+vim/vim
+vim/.netrwhist
+chef/
+private
+foo
+foobar
+.local
+.remote
+*.log
+Miniconda*.sh
+.DS_Store

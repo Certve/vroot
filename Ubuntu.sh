@@ -1,16 +1,15 @@
 #!/bin/sh
 
-export HOME=$(accroot/root)
-HOME=$HOME
-export pwd=$pwd
+export HOME=$(/home/master/accroot/root)
+export pwd=$(/home/master/accroot)
+HOME=$HOME:/root
 ROOTFS_DIR=$(pwd)
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
 max_retries=50
 timeout=1
 ARCH=$(uname -m)
-cd $HOME
-chmod +x ~/accroot/Ubuntu.sh
+chmod +x Ubuntu.sh
 
 if [ "$ARCH" = "x86_64" ]; then
   ARCH_ALT=amd64
@@ -24,9 +23,9 @@ fi
 if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#######################################################################################"
   echo "#                                                                                     #"
-  echo "#                                      Proot INSTALLER                                #"
+  echo "#                                      Proot Chroot OnL                                #"
   echo "#                                                                                     #"
-  echo "#                                    Embbed (C) 2025    By IvanSsl                          #"
+  echo "#           Embbed (C)2025 IvanSsl                          #"
   echo "#                                                                                     #"
   echo "#                                                                                     #"
   echo "#######################################################################################"
@@ -93,12 +92,12 @@ IP_ADDRESS=$(hostname -I | awk '{print $1}')
 
 
 display_gg() {
-  echo -e "${WHITE}____________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}______________________________________${RESET_COLOR}"
   echo -e "           ${CYAN}-----> Great Linux Here!! ! <----${RESET_COLOR}"
 }
 
 display_version() {
-  echo -e "${WHITE}____________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}__________________________________________________${RESET_COLOR}"
   echo -e "${CYAN}OS:${RESET} $OS_VERSION"
   echo -e "${CYAN}CPU:${RESET} $CPU_NAME [$CPU_ARCH]"
   echo -e "${CYAN}Used CPU:${RESET} ${CPU_USAGE}%"
@@ -106,7 +105,7 @@ display_version() {
   echo -e "${YELLOW}Disk:${RESET} $USED_DISK / $DISK_SPACE"
   echo -e "${RED}Ports:${RESET} $PORTS"
   echo -e "${RED}IP:${RESET} $IP_ADDRESS"
-  echo -e "${WHITE}Usercloud:@Certveis${RESET_COLOR}"
+  echo -e "${WHITE}Cloud:@Certveis${RESET_COLOR}"
 }
 
 clear

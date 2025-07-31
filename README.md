@@ -23,9 +23,9 @@ step 1. Clone the repository:
 step 2. Run the installer script:
 
   ```sh
-    ./root.sh
+    mv accroot/* $HOME && chmod +x Debian.sh # Change Ubuntu.sh to with Ubuntu
   ```
-or
+Execute
     
   ```sh
     bash root.sh

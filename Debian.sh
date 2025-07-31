@@ -1,5 +1,5 @@
 #!/bin/sh
-
+HOME=$(/home/master)
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
 max_retries=50
@@ -122,4 +122,4 @@ fi
 # Run proot
 "$ROOTFS_DIR/usr/local/bin/proot" \
   --rootfs="${ROOTFS_DIR}" \
-  -0 -w "/root" -b /dev -b /sys -b /proc -b /etc/resolv.conf --kill-on-exit
+  -0 -w "$HOME" -b /dev -b /sys -b /proc -b /etc/resolv.conf --kill-on-exit

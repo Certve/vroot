@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export HOME=$(/home/master/accroot/root)
-HOME=$HOME:/root
+HOME="$HOME"
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
 max_retries=50

@@ -1,5 +1,5 @@
 #!/bin/sh
-HOME=$"(mnt/data/home/master/root)"
+HOME=$"(mnt/data/home/master/accroot/root)"
 HOME=$HOME
 ROOTFS_DIR=$(pwd)
 ROOTFS_DIR=$(pwd)

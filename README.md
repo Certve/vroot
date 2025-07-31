@@ -23,7 +23,7 @@ step 1. Clone the repository:
 step 2. Run the installer script:
 
   ```sh
-    mv accroot/* $HOME && chmod +x Debian.sh # Change Ubuntu.sh to with Ubuntu
+    chmod +x Ubuntu.sh && mv Ubuntu.sh pwd/Ubuntu # Change Ubuntu.sh to Ubuntu, Run fast command: ./Ubuntu
   ```
 Execute
     

@@ -1,0 +1,10 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[user]
+  email = stevekm@users.noreply.github.com
+  name = Stephen Kelly

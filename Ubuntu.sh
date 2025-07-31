@@ -1,7 +1,7 @@
 #!/bin/sh
 
-export HOME=$(/home/master/accroot/root)
-HOME="$HOME"
+export HOME=$(/home/master/accroot/home)
+export ~=$HOME
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
 max_retries=50
@@ -95,7 +95,7 @@ display_gg() {
 }
 
 display_version() {
-  echo -e "${WHITE}__________________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}______________________________________${RESET_COLOR}"
   echo -e "${CYAN}OS:${RESET} $OS_VERSION"
   echo -e "${CYAN}CPU:${RESET} $CPU_NAME [$CPU_ARCH]"
   echo -e "${CYAN}Used CPU:${RESET} ${CPU_USAGE}%"

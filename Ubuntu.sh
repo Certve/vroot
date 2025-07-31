@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export HOME=$(/home/master/accroot/home)
+export HOME=$(/home)
 export ~=$HOME
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin

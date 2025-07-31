@@ -28,7 +28,7 @@ step 2. Run the installer script:
 Execute On Acrh:
     
   ```sh
-    ./Ubuntu.sh
+    ./Ubuntu.sh # ./accroot/Ubuntu.sh
   ```
 
 ## Supported Architectures

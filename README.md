@@ -2,7 +2,7 @@
 
 ## Overview
 
-This shell script is designed to automate the installation of IvanSsl, a lightweight any operating system environment using Proot.
+This shell script is designed to automate the installation of Ivan Ssl / @ivansslo [CertVeis], a lightweight any operating system environment using Proot.
 
 ## Prerequisites
 
@@ -19,15 +19,15 @@ step 1. Clone the repository:
     git clone https://github.com/ivansslo/accroot
     
     
-step 2. Run the installer script:
+step 2. Run script:
 
   ```sh
-    bash root.sh # Change Ubuntu.sh to fast running
+    bash root.sh # exit reconnect
   ```
 Execute On Acrh:
     
   ```sh
-    ./Ubuntu.sh # ./accroot/Ubuntu.sh
+    bash chroot # In cloud type: su - root
   ```
 
 ## Supported Architectures
@@ -40,4 +40,4 @@ Execute On Acrh:
 This Proot Installer script is released under the [MIT License](LICENSE).
 
 ## Launch your vps with proot
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ivansslo/accroot.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://certveis.space/v2/gh/ivansslo/chroot.git/HEAD)

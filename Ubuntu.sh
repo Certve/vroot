@@ -1,5 +1,6 @@
 #!/bin/sh
-HOME=$(/home/master/root)
+HOME=$"(mnt/data/home/master/root)"
+HOME=$HOME
 ROOTFS_DIR=$(pwd)
 ROOTFS_DIR=$(pwd)
 export PATH=$PATH:~/.local/usr/bin
@@ -101,7 +102,7 @@ display_version() {
   echo -e "${YELLOW}Disk:${RESET} $USED_DISK / $DISK_SPACE"
   echo -e "${RED}Ports:${RESET} $PORTS"
   echo -e "${RED}IP:${RESET} $IP_ADDRESS"
-  echo -e "${WHITE}_______________________________________________________________________${RESET_COLOR}"
+  echo -e "${WHITE}_Certveis_${RESET_COLOR}"
 }
 
 clear

@@ -23,12 +23,12 @@ step 1. Clone the repository:
 step 2. Run the installer script:
 
   ```sh
-    chmod +x Ubuntu.sh && mv Ubuntu.sh $pwd/Ubuntu # Change Ubuntu.sh to Ubuntu, Run fast command: ./Ubuntu
+    chmod +x Ubuntu.sh && bash root.sh # Change Ubuntu.sh to fast running
   ```
-Execute
+Execute On Acrh:
     
   ```sh
-    bash root.sh
+    ./Ubuntu.sh
   ```
 
 ## Supported Architectures

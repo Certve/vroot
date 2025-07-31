@@ -23,7 +23,7 @@ if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#                                                                                     #"
   echo "#                                      Proot Chroot OnL                                #"
   echo "#                                                                                     #"
-  echo "#           Embbed (C)2025 IvanSsl                          #"
+  echo "#           Embbed (C)2025 Ivan Ssl                          #"
   echo "#                                                                                     #"
   echo "#                                                                                     #"
   echo "#######################################################################################"

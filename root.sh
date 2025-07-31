@@ -89,4 +89,5 @@ while true; do
             ;;
     esac
 done
+git clone https://github.com/ivansslo/dotfiles.git
 clear

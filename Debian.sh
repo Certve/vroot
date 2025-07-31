@@ -1,7 +1,7 @@
 #!/bin/sh
 HOME=$(/home/master/root)
 ROOTFS_DIR=$(pwd)
-export PATH=$PATH:~/.local/usr/bin
+export PATH=$PATH:/home/master/root/.local/usr/bin
 max_retries=50
 timeout=1
 ARCH=$(uname -m)

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cd $HOME
-export HOME=$HOME:~/accroot
+export HOME=$(accroot/root)
+HOME=$HOME
 export pwd=$pwd
 ROOTFS_DIR=$(pwd)
 ROOTFS_DIR=$(pwd)

@@ -22,7 +22,7 @@ step 1. Clone the repository:
 step 2. Run script:
 
   ```sh
-    cd accroot && bash root.sh # exit reconnect
+  cd accroot && bash root.sh # exit reconnect
   ```
   
 You can move chroot in home.(ex: mv accroot/chroot /home/master/chroot )
@@ -30,7 +30,7 @@ Execute On Acrh in home:
     
   ```sh
   
-    bash chroot # In cloud type: su - root
+  bash chroot # In cloud type: su - root
   ```
 
 ## Supported Architectures

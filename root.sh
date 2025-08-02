@@ -73,7 +73,6 @@ while true; do
             # Run the corresponding script based on the selection
             case $selected in
                 0)
-                    cp -r dotfiles /tmp/dotfiles &&
                     bash Ubuntu.sh
                     ;;
                 1)

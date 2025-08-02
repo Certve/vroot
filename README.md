@@ -30,7 +30,7 @@ Execute On Acrh in home:
     
   ```sh
   
-  bash accroot/chroot # In cloud type: su - root
+  bash chroot # In cloud type: su - root
   ```
 
 ## Supported Architectures

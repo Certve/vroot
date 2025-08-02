@@ -3,11 +3,11 @@
 export HOME=$(/home)
 export ~=$HOME
 ROOTFS_DIR=$(pwd)
-export PATH=$PATH:/home/master/root/.local/usr/bin
+export PATH=$PATH:~/.local/usr/bin
 max_retries=50
 timeout=1
 ARCH=$(uname -m)
-
+chmod +x Debian.sh
 if [ "$ARCH" = "x86_64" ]; then
   ARCH_ALT=amd64
 elif [ "$ARCH" = "aarch64" ]; then

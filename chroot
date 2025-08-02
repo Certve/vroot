@@ -1,4 +1,4 @@
 Aliases & Functions
 ############################################>
-cd accroot
+cd ../accroot
 source Ubuntu.sh

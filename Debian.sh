@@ -108,7 +108,7 @@ echo -e "Disk Size: ${disk_info}"
 display_gg() {
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
   echo -e ""
-  echo -e "           ${CYAN}-----> Mission Completed ! <----${RESET_COLOR}"
+  echo -e "           ${CYAN}-----> Debian-Root! <----${RESET_COLOR}"
 }
 
 clear

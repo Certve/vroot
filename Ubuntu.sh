@@ -8,7 +8,6 @@ max_retries=50
 timeout=1
 ARCH=$(uname -m)
 chmod +x Ubuntu.sh
-
 if [ "$ARCH" = "x86_64" ]; then
   ARCH_ALT=amd64
 elif [ "$ARCH" = "aarch64" ]; then

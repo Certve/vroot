@@ -16,7 +16,7 @@ This shell script is designed to automate the installation of Ivan Ssl / @ivanss
 step 1. Clone the repository:
 
     
-    git clone https://github.com/ivansslo/accroot && cd accroot
+    git clone https://github.com/ivansslo/vroot && cd vroot
     
     
 step 2. Run script:
@@ -25,12 +25,12 @@ step 2. Run script:
   bash root.sh # exit reconnect
   ```
   
-You can move chroot in home.(ex: mv accroot/chroot /home/master/chroot )
+You can move chroot in home.(ex: mv vroot/chroot /home/master/chroot )
 Execute On Acrh in home:
     
   ```sh
   
-  bash chroot # In cloud type: su - root
+  ./chroot # In cloud type: su - root
   ```
 
 ## Supported Architectures

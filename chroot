@@ -1,4 +1,6 @@
-Aliases & Functions
+#! /bin/bash
+
+# Aliases & Functions
 ############################################>
-# cd ../accroot
-source Ubuntu.sh
+export HOME=$PREFIX
+bash Ubuntu.sh
